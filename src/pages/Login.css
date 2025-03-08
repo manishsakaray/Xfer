@@ -5,6 +5,10 @@
     justify-content: center;
     align-items: center;
     border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .login-card-left{
@@ -107,7 +111,13 @@
     color: white;
     background: #ce261a;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 18px;
+}
+
+.login-card-right-form button .uil-sign-in-alt{
+    transform: scale(-1, -1);
+    font-size: 20px;
+    padding-left: 8px;
 }
 
 .left{

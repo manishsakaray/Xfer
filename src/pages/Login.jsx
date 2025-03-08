@@ -141,6 +141,7 @@ const Login = () => {
             )}
             <button disabled={!!error} onClick={handleSubmit} type="submit">
               {actionType === "Login" ? "Sign In" : "Register"}
+              <i class="uil uil-sign-in-alt"></i>
             </button>
             <p>
               {actionType === "Login" ? "Not a member?" : "Already a member?"}

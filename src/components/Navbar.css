@@ -1,0 +1,79 @@
+.navbar{
+    height: 100px;
+    /* border: 2px solid red; */
+    /* display: inline-block; */
+    display: grid;
+    /* background-color: #e6eaec; */
+    grid-template-columns: 5fr 4fr 1fr;
+    /* border-bottom: 5px solid #ce261a; */
+
+}
+
+.nav-main{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: #e6eaec;
+    border-radius: 25px 0px 25px 0px;
+    position: relative;
+    /* z-index: 10; */
+}
+
+.nav-main .navbar-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 35px;
+    /* align-items: center; */
+}
+
+.nav-main .navbar-logo img{
+    height: 50px;
+}
+
+.nav-main .navlinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-main .navlinks ul{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content:flex-end;
+    gap: 45px;
+    align-items: center;
+    list-style: none;
+    margin-right: 45px;
+}
+
+.nav-main .navlinks ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .emptyspace{
+    /* background-color: #f74133; */
+    border-radius: 25px 25px 0px 0px;
+}
+
+
+.navbar .login-div{
+    background-color: #e6eaec;
+    border-radius: 0px 25px 0px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* z-index: 10; */
+}
+
+.navbar .login-div a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .login-div .uil-user-circle{
+    font-size: 50px;
+}

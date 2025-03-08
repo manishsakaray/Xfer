@@ -1,0 +1,34 @@
+.main-body{
+    /* background-color: #f74133; */
+    height: 85vh;
+    border-radius: 25px;
+}
+
+.main-body .social-links-div{
+    display: inline-block;
+    height: 300px;
+    width: 80px;
+    margin-top: 250px;
+    background-color: #e6eaec;
+    border-radius: 0px 25px 25px 0px;
+    position: relative;
+    /* z-index: 0; */
+}
+
+.main-body .social-links-div .social-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 33px;
+}
+
+.main-body .social-links-div a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-body .social-links-div .uil{
+    font-size: 35px;
+}
