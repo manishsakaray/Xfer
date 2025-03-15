@@ -52,31 +52,6 @@ const MatrixRain = ({ targetId }) => {
     };
   }, [state, targetId]);
 
-  // useEffect(() => {
-  //   const gui = new Pane({ title: "1337 Matrix by pavi2410" });
-
-  //   gui.addBinding(state, "fps", { min: 1, max: 120, step: 1 }).on("change", (ev) => {
-  //     if (!ev.last) return;
-  //     setState((prev) => ({ ...prev, fps: ev.value }));
-  //   });
-
-  //   gui.addBinding(state, "color").on("change", (ev) => {
-  //     setState((prev) => ({ ...prev, color: ev.value }));
-  //   });
-
-  //   gui.addBinding(state, "charset").on("change", (ev) => {
-  //     setState((prev) => ({ ...prev, charset: ev.value }));
-  //   });
-
-  //   gui.addBinding(state, "size", { min: 1, max: 120, step: 1 }).on("change", (ev) => {
-  //     if (ev.last) {
-  //       setState((prev) => ({ ...prev, size: ev.value }));
-  //     }
-  //   });
-
-  //   return () => gui.dispose();
-  // }, []);
-
   return (
     <canvas
       ref={canvasRef}

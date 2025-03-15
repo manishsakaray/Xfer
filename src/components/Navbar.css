@@ -69,11 +69,18 @@
     /* z-index: 10; */
 }
 
+.navbar .login-div ul{
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+}
+
 .navbar .login-div a{
     text-decoration: none;
     color: black;
 }
 
 .navbar .login-div .uil-user-circle{
-    font-size: 50px;
+    font-size: 25px;
+    padding-left: 5px;
 }

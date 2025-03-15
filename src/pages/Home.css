@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* #matrix-container{
+    border: 2px solid black;
+} */
+
+.pro-membership, .footer-div{
+    height: 330px;
+    background-color: rgb(122, 122, 122);
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: 3.4fr 0.2fr 3.4fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.horizontal-line{
+    height: 175px;
+    border: solid 2px #e6eaec;
+    width: 0px;
+    margin: auto auto;
+}
+
+.pro-membership-text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Lobster', sans-serif;
+}
+
+.pro-membership-text span{
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.pro-membership-benefits{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    position: relative;
+}
+
+.pro-membership-benefits p{
+    display: inline;
+    width: 300px;
+    position: relative;
+    z-index: 10;
+}
+
+.pro-membership-benefits img{
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    left: 200px;
+    bottom: 50px;
+    z-index: 0;
+}
+
+.footer-div{
+    background-color: rgb(41, 37, 37);
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 1fr 0.1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-div .footer-nav ul{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    gap: 20px
+}
+
+.footer-div .footer-nav ul li a{
+    text-decoration: none;
+    color: #e6eaec;
+}
+
+.footer-div .footer-socail-links ul{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    gap: 20px
+}
+
+.footer-div .footer-socail-links ul li a{
+        text-decoration: none;
+        color: #e6eaec;
+}

@@ -1,26 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Hero.css'
-import MatrixRain from '../pages/MatrixRain'
+
+import SocialMediaLinks from './SocialMediaLinks';
+import FileLibrary from './FileLibrary';
+import HeroCard from './HeroCard';
 
 const Hero = () => {
+
   return (
     <div className='main-body'>
-       
-        <div className="social-links-div">
-            <div className="social-links">
-                <a href="#"><i class="uil uil-instagram-alt"></i></a>
-                <a href="#"><i class="uil uil-twitter"></i></a>
-                <a href="#"><i class="uil uil-youtube"></i></a>
-            </div>
-        </div>
-        <div className='hero-card'>
-            <div className="hero-features">
-               
-            </div>
-            <div className="hero-text">
-
-            </div>
-        </div>
+       {/* <SocialMediaLinks/>
+       <FileLibrary/>*/}
+       <HeroCard/> 
+       <SocialMediaLinks/>
+       <FileLibrary/>
     </div>
   )
 }

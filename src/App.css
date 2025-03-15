@@ -6,12 +6,14 @@
 }
 
 body{
-  overflow: hidden;
+  overflow-x: auto;
+  white-space: nowarp;
+  scrollbar-width: none;
   background-color: white;
 }
 
 .main-container{
-  min-height: 98vh;
+  /* min-height: 98vh; */
   margin: 9px;
   border-radius: 25px;
   background-color: #e6eaec;
@@ -21,5 +23,9 @@ body{
   align-items: center;
   justify-content: center;
   gap: 20px; */
+}
+
+body::-webkit-scrollbar{
+  display: none;
 }
 

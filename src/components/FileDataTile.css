@@ -1,0 +1,18 @@
+.file-tile{
+    width: 1570px;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 1fr 14fr 4fr 4fr 1fr 1fr;
+    
+    border-radius: 25px;
+    background-color: rgb(209, 209, 209);
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+}
+
+.file-tile p{
+    font-size: 20px;
+    text-align: center;
+}
